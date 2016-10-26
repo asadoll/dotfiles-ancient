@@ -503,7 +503,7 @@ values."
    ;; IRC
    erc-server-list
    `(("irc.gitter.im" :port "6667" :nick "asadoll" :full-name "Asad. Gharighi"
-      :ssl t :password "bd6536cae9ceb1d21cff494d4a80121e59b629fd"))
+      :ssl t :password ""))
      ;; ("irc.freenode.net" :port "6667" :nick "asadoll" :full-name "Asad. Gharighi"))
    ;; erc-autojoin-channels-alist
    ;; '(("1\\.0\\.0" "#syl20bnr/spacemacs" "#syl20bnr/spacemacs-devel") ; Gitter
@@ -700,17 +700,3 @@ you should place your code here."
 
   (when (file-exists-p "~/local.el")
     (load "~/local.el"))
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(package-selected-packages
-   (quote
-    (multiple-cursors elfeed haskell-mode yasnippet slime-company insert-shebang hide-comnt xterm-color use-package stan-mode spaceline racer qml-mode pytest persp-mode org-ref ivy org-plus-contrib neotree intero helm-bibtex flycheck-rust ein dumb-jump column-enforce-mode clojure-snippets cider clojure-mode biblio aggressive-indent ace-window auctex ess julia-mode anzu smartparens undo-tree flyspell-correct helm helm-core ht flycheck magit js2-mode dash zeal-at-point yapfify yaml-mode x86-lookup ws-butler wolfram-mode window-numbering which-key websocket web-mode web-beautify volatile-highlights vimrc-mode uuidgen typo typit toml-mode toc-org thrift tagedit stickyfunc-enhance srefactor spacemacs-theme spacegray-theme smyx-theme smex smeargle slime slim-mode shell-pop seti-theme scss-mode scad-mode sass-mode restart-emacs ranger rainbow-delimiters queue quelpa pyvenv pyenv-mode py-isort pug-mode pip-requirements pcre2el parsebib paradox pacmacs origami orgit org-projectile org-present org-pomodoro org-download org-bullets open-junk-file omnisharp nginx-mode nasm-mode nameless multi-term move-text mmm-mode minimal-theme matlab-mode material-theme markdown-toc magit-gitflow magit-gh-pulls lua-mode lorem-ipsum livid-mode live-py-mode linum-relative link-hint less-css-mode kivy-mode key-chord json-mode js2-refactor js-doc info+ indent-guide ido-vertical-mode ibuffer-projectile hy-mode hungry-delete htmlize hlint-refactor hl-todo hindent highlight-parentheses highlight-numbers highlight-indentation help-fns+ helm-themes helm-swoop helm-pydoc helm-projectile helm-mode-manager helm-make helm-hoogle helm-gtags helm-gitignore helm-flycheck helm-flx helm-descbinds helm-dash helm-css-scss helm-company helm-c-yasnippet helm-ag haskell-snippets google-translate golden-ratio gnuplot github-search github-clone github-browse-file gitconfig-mode gitattributes-mode git-timemachine git-messenger git-link git-gutter-fringe git-gutter-fringe+ gist gh-md ggtags flyspell-correct-helm flycheck-pos-tip flycheck-haskell flx-ido fish-mode fill-column-indicator fancy-battery eyebrowse expand-region exec-path-from-shell evil-visualstar evil-visual-mark-mode evil-unimpaired evil-tutor evil-surround evil-snipe evil-search-highlight-persist evil-numbers evil-nerd-commenter evil-mc evil-matchit evil-magit evil-lisp-state evil-indent-plus evil-iedit-state evil-exchange evil-escape evil-ediff evil-args evil-anzu ess-smart-equals ess-R-object-popup ess-R-data-view eshell-z eshell-prompt-extras esh-help erc-yt erc-view-log erc-social-graph erc-image erc-hl-nicks engine-mode emoji-cheat-sheet-plus emmet-mode elisp-slime-nav elfeed-web elfeed-goodies editorconfig disaster diminish diff-hl defproject define-word dactyl-mode cython-mode cuda-mode csv-mode company-web company-tern company-statistics company-shell company-quickhelp company-ghci company-ghc company-emoji company-cabal company-c-headers company-auctex company-anaconda common-lisp-snippets command-log-mode color-theme-sanityinc-tomorrow color-theme-sanityinc-solarized coffee-mode cmm-mode cmake-mode clean-aindent-mode clang-format cl-generic cider-eval-sexp-fu cargo bind-key biblio-core auto-yasnippet auto-highlight-symbol auto-dictionary auto-compile auctex-latexmk arduino-mode adaptive-wrap ace-link ace-jump-helm-line ac-ispell 2048-game))))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
