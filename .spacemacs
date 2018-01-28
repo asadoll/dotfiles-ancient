@@ -499,7 +499,7 @@ values."
    ;; IRC
    erc-server-list
    `(("irc.gitter.im" :port "6667" :nick "asadoll" :full-name "Asad. Gharighi"
-      :ssl t :password "bd6536cae9ceb1d21cff494d4a80121e59b629fd"))
+      :ssl t :password ""))
      ;; ("irc.freenode.net" :port "6667" :nick "asadoll" :full-name "Asad. Gharighi"))
    ;; erc-autojoin-channels-alist
    ;; '(("1\\.0\\.0" "#syl20bnr/spacemacs" "#syl20bnr/spacemacs-devel") ; Gitter
